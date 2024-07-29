@@ -5,6 +5,7 @@ import Price from "../components/Price"
 
 const ProductCard = ({name, price, description, image})=>{
     return(
+        // This is my product card
         <div className="bg-blue-600 rounded-lg text-white flex flex-col gap-2">
             <Image image={image}/>
             <div className="flex justify-between px-2">
